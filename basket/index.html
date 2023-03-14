@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body class="body">
+    <header>
+        <nav class="navbar navbar-expand-lg" id="arrowUp">
+            <div class="container-fluid header-top">
+                <a class="navbar-brand" href="/">
+                    <img src="../assets/image/logo.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-top__nav">
+                        <li class="nav-item header-top__nav-item">
+                            <a class="nav-link" aria-current="page" data-id="allShorts">SHORTS</a>
+                        </li>
+                        <li class="nav-item header-top__nav-item">
+                            <a class="nav-link" href="#">PANTS</a>
+                        </li>
+                        <li class="nav-item header-top__nav-item">
+                            <a class="nav-link">SHIRTS</a>
+                        </li>
+                        <li class="nav-item header-top__nav-item">
+                            <a class="nav-link">ACCESSORIES</a>
+                        </li>
+                        <li class="nav-item header-top__nav-item">
+                            <a class="nav-link">SALE</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex header-top__search" role="search">
+                        <input class="form-control" type="search" placeholder="SEARCH ENTIRE STORE HERE"
+                            aria-label="Search" />
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="product-location location">
+            <div class="product-location__home location__home">
+                <a href="/">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000"
+                        xml:space="preserve">
+                        <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+                        <g>
+                            <path
+                                d="M965.4,419.1l-1.3-1.4l-1.5-1.3L558.8,55.8c-15.9-15.5-36.7-24-58.8-24c-22.1,0-42.9,8.5-58.8,24L37.4,416.4l-1.5,1.3l-1.4,1.4c-24.3,25.1-31.3,62.2-17.8,94.7c6.3,15.1,16.4,27.9,29.4,37.3c14.3,10.2,33.3,25.2,51,25.2l0,0v304.9c0,47.4,40.2,87.1,87.1,87.1h152.5c46.9,0,87.1-39.7,87.1-87.1V706.9h152.4v174.2c0,47.4,18.4,87.1,65.3,87.1h174.2c46.9,0,87.1-39.7,87.1-87.1V576.2l43.6-21.8c17.7,0-7,6.8,7.3-3.4c13-9.3,23.2-22.2,29.4-37.3C996.7,481.3,989.7,444.1,965.4,419.1L965.4,419.1z M904.9,511.7h-67.1v370.4c0,17.2-26.7,20.7-43.7,20.7H685.2c-17,0-43.6-4.6-43.6-21.8l0-239.6H358.5v239.6c0,17.2-26.6,21.8-43.6,21.8H206.1c-17,0-43.6-4.6-43.6-21.8V510.9H97.2c-27.4,0-30.8-46.7,0-65.3l370.2-326.7c6-6.2,26.3-21.8,34.2-21.8c7.9,0,25.1,15.6,31.1,21.8L903,445.6C931.3,464.2,932.3,511.7,904.9,511.7L904.9,511.7z" />
+                        </g>
+                    </svg>
+                    <div>
+                        HOME
+                    </div>
+                </a>
+                <div>
+                    Your card
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="cart">
+                <h1 class="cart-title">
+                    YOUR CART (1 ITEM)
+                </h1>
+                <div class="cart-table">
+                    <div class="cart-table__title fon">Item</div>
+                    <div class="fon">Price</div>
+                    <div class="fon">Quantity</div>
+                    <div data-id="nextItem" class="fon">Total</div>
+                    
+                </div>
+                <div class="cart-total">
+                    <div>
+                        Subtotal:
+                    </div>
+                    <div>
+                        $75.00
+                    </div>
+                </div>
+                <div class="cart-check card-product__btn">
+                    Check out
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <ul class="footer__nav">
+                <li>
+                    oRDERING ONLINE
+                </li>
+                <li>
+                    <a href="#">
+                        Account Login
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Our Guarantee
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Sportif Stretch Guide
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Size Chart & Sizing Information
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Hemming Information
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Ordering & Payment
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Shipping Information
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Returns
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer__nav">
+                <li>
+                    ABOUT SPORTIF
+                </li>
+                <li>
+                    <a href="#">
+                        COVID-19 Response
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        History
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Legacy
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Good Sam Program
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Privacy & Security
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Terms & Conditions
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        careers
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer__nav">
+                <li>
+                    QUICK LINKS
+                </li>
+                <li>
+                    <a href="#">
+                        FAQs
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Shop Online Catalog
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        contact Us
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer__nav">
+                <li>
+                    get TO KNOW US
+                </li>
+                <li>
+                    Sign up for our weekly newsletter and get a 10% off coupon by email for your first order!
+                </li>
+                <li>
+                    <form class="footer__subscribe">
+                        <p>
+                            <label for="email">Sign Up for Our Newsletter:</label>
+                        </p>
+                        <p>
+                            <input type="email" placeholder="eMAIL ADDRESS" id="email" required />
+                            <input type="submit" value="sUBSCRIBE">
+                        </p>
+
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="rights">
+            ©2023 Sportif Mailorder. All Rights Reserved.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="../code/cart.js"></script>
+
+</body>
+
+</html>
