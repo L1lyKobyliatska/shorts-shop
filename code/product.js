@@ -1,7 +1,7 @@
 
 const [...shorts] = document.querySelectorAll('[data-id="allShorts"]');
 shorts.forEach(element => {
-    element.addEventListener('click', () => { document.location = '../catalog page/index.html' });
+    element.addEventListener('click', () => { document.location = '../catalog_page/index.html' });
 });
 
 const productCard = JSON.parse(localStorage.getItem('someCard')),
